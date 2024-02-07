@@ -1,0 +1,87 @@
+
+.page_top{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:13px;
+    color: #000;
+    position:absolute;
+    left:20px;
+}
+#microsoft-logo{
+    position:relative;
+    top:6px;
+}
+#page_top_left{
+    font-weight: 300;
+}
+#page_top_right{
+    font-weight: 300;
+    position:relative;
+    left:510px;
+}
+#list{
+    position:relative;
+    top:4px;
+    left:-2px;
+}
+#find{
+    position: relative;
+    top: 6px;
+}
+#enter{
+    position: relative;
+    top:3px;
+}
+#main-image{
+    position: relative;
+    top:40px;
+}
+#blocks{
+    position: relative;
+    top:70px;
+}
+.blocks_text{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:12px;
+}
+#ms-teams{
+    position:relative;
+    left:0px;
+    top:105px;
+}
+#ms-edge{
+    position:relative;
+    left:360px;
+    top:30px;
+}
+#ms-onedrive{
+    position:relative;
+    left:720px;
+    top:-60px;
+}
+#ms-win-10{
+    position:relative;
+    left:1080px;
+    top:-150px;
+}
+.links {
+    color:rgb(59, 131, 198);
+    display: block;
+    margin-top: 10px; 
+    font-size:14px;
+}
+.rights{
+    position:relative;
+    top:3px;
+}
+.headers{
+    font-size:16px;
+    position: relative;
+    top:-5px;
+}
+.links:hover{
+    text-decoration: underline;
+}
+#more{
+    position:relative;
+    top:11px;
+}

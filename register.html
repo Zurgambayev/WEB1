@@ -1,89 +1,46 @@
 <html>
-    <head></head>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Group the groupers</title>
 
+        <link rel="stylesheet" href="instagram.css">
+    </head>
     <body>
-
-        <!-- <div id="header">Header</div> -->
-        <header>Header</header>
-
-
-        <a href="index.html">Go Back</a>
-
-        <h1>Register form</h1>
-
-        <form action="">
-            <fieldset>
-                <label for="first_name">First Name:</label>
-                <input 
-                type="text" 
-                id="first_name"
-                placeholder="Enter your first name"
-                required
-                autofocus
-                >
-            </fieldset>
-            <fieldset>
-                <label for="last_name">Last Name:</label>
-                <input 
-                type="text" 
-                id="last_name" 
-                value="Example"
-                readonly
-                >
-            </fieldset>
-            <fieldset>
-                <label for="last_name">Gender:</label>
-                <select name="Gender" id="gender">
-                    <option value="">-</option>
-                    <option value="">Male</option>
-                    <option value="">Female</option>
-                </select>
-            </fieldset>
-            <fieldset>
-                <label for="last_name">Gender (second option):</label>
-
-                <label for="male">Male</label>
-                <input type="radio" name="gender">
-
-                <label for="female">Female</label>
-                <input type="radio" name="gender">
-            </fieldset>
-            <fieldset>
-                <label for="agree">Agree?:</label>
-                <input type="checkbox">
-            </fieldset>
-
-            <fieldset>
-                <label for="bio">Bio</label>
-                <textarea name="" id="" cols="40" rows="20"></textarea>
-            </fieldset>
-
-            <fieldset>
-                <input type="date">
-                <input type="time">
-                <input type="datetime-local">
-                <input type="range" min="1" max="10">
-                <input type="color">
-                <input type="email">
-                <input type="number">
-                <input type="tel">
-                <input type="url">
-
-            </fieldset>
-
-            <fieldset>
-                <input type="text" placeholder="Enter your login">
-                <input type="password" placeholder="Enter your password">
-            </fieldset>
-
-            <input type="reset" value="Reset">
-            <input type="submit" value="Register">
-        </form>
-
-        <!-- <div id="footer">Footer</div> -->
-        <footer>Footer</footer>
-
-
-        
+        <div class="level1">
+            <div class="global_login">
+                <div class="login">
+                    <form action="">
+                        <input id="email" placeholder="Электронный адрес или номер телефона"> <br>
+                        <input id="password" placeholder="Пароль"> <br>
+                        <button id="entry" type="submit"><strong>Войти</strong></button> <br>
+                        <div class="or">
+                            <div class="line1"></div>
+                            <div class="orr"><p>ИЛИ</p></div>
+                            <div class="line2"></div>
+                        </div>
+                        <div class="facebook">
+                            
+                        </div>
+                    </form>    
+                </div>
+            </div>
+        </div>
     </body>
 </html>
+.global_login {
+    /* border: 2px solid #000;    */
+}
+.login {
+    border: 1px solid #000;
+    width: 300px;
+}
+.or {
+    display: flex;
+    align-items: center; /* Выравнивание содержимого по центру */
+}
+.line1, .line2 {
+    width: 40px;
+    height: 0.5px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px; 
+}
