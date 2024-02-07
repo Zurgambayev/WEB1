@@ -1,0 +1,184 @@
+
+/* body{
+    background-color:antiquewhite;
+} */
+.level_1 {
+    /* margin-bottom: 1000px; */
+    display: flex;
+    background: #f0f2f5;
+    /* flex-direction: row; */
+    /* border: 2px solid #000;  */
+    justify-content:center;  
+    /* align-items:center; */
+    /* margin-top: 165px; */
+    flex-wrap: wrap;
+    width: 1500px; 
+    height: 700px; 
+    /* position: relative; */
+}
+
+.global_img_and_text1 { 
+    text-align: center;
+    text-align: left; 
+    margin-top: 200px;
+    margin-right: 70px; /*
+    /* border: 2px solid #000;   */
+    /* align-self:center;  */
+}
+.global_img_and_text2 {
+    height: 456px;
+    width: 396px;
+    margin-left: 40px; 
+    margin-top: 150px;
+    /* border: 2px solid #000; Толщина, стиль и цвет границы */
+
+}
+
+.imgFacebook{
+    height: 106px;
+    margin: -28px;
+}
+#text{
+    font-size: 24px;
+    line-height: 28px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+
+.login{
+    text-align: center;
+    border: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 396px;
+    height: 300px;
+}
+#email{
+    margin: auto;
+    padding: 6px 0;
+    font-size: 17px;
+    font-family: inherit;
+    width: 364px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid rgb(212, 207, 207);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+#password{
+    margin:auto;
+    font-family: inherit;
+    font-size: 17px;
+    border-radius: 6px;
+    padding: 6px;
+    padding-left: 33px; 
+    width: 364px;
+    text-align:left;
+    border: 1px solid #d4cfcf;
+    margin-bottom: 17px;
+}
+#entry{
+    font-size: 17px;
+    margin:auto;
+    border-radius: 6px;
+    padding: 6px;
+    width: 364px;
+    background-color: #1877f2;
+    border: none;
+    line-height: 30px;
+    color: aliceblue;
+}
+#forget_password{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;    
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;   
+}
+.line{
+    margin: 0 auto;
+    width: 364px; /* Длина линии */
+    height: 0.5px; /* Толщина линии */
+    background-color: rgb(170, 165, 165); /* Цвет линии */
+}
+#create_new_password{
+    color: azure;
+    border-width: 0.5;
+    border-radius: 4px;
+    background-color: #42b72a;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    font-family: inherit;
+    margin-bottom: 15px;
+}
+#create_page{
+    color: black;
+    font-weight:600;
+}
+.lll{
+    text-align: center; 
+    margin-top: 20px;
+}
+.end{
+    flex-wrap: wrap;
+    margin-left: 300px;
+    color: #737373;
+}
+footer {
+    height: 30vh;
+    background-color: #ffffff;
+}
+.footer-contents {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+footer ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+footer ol:first-child {
+    border-bottom: 1px solid #dddfe2;
+}
+footer ol:first-child li button {
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    outline: none;
+    color: #4b4f56;
+    padding: 0 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+footer ol li {
+    padding-right: 15px;
+    font-size: 12px;
+    color: #8a8d91;
+
+}
+footer ol li a {
+    text-decoration: none;
+    color: #8a8d91;
+}
+footer ol li a:hover {
+    text-decoration: underline;
+}
+
+footer small {
+    color: #8a8d91;
+    font-size: 11px;
+}
