@@ -108,9 +108,9 @@
 }
 .line{
     margin: 0 auto;
-    width: 364px; /* Длина линии */
-    height: 0.5px; /* Толщина линии */
-    background-color: rgb(170, 165, 165); /* Цвет линии */
+    width: 364px; 
+    height: 0.5px; 
+    background-color: rgb(170, 165, 165); 
 }
 #create_new_password{
     color: azure;
