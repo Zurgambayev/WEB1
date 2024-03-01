@@ -1,0 +1,13 @@
+<h2>Products</h2>
+
+<div class="listItems">
+    <ng-container *ngFor="let product of products">
+        <app-product-items *ngIf="product.categoryId == categoryIdFromRoute" [product]="product" [categoryId]="categoryIdFromRoute" (remove)="removeProduct($event)">
+        </app-product-items>
+    </ng-container>
+</div>
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->

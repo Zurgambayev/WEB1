@@ -1,0 +1,16 @@
+.listItems {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.listItems app-product-items {
+    width: 20%;
+    margin: 10px 5px;
+}
+
+.listItems::after {
+    content: "";
+    flex: auto;
+}
