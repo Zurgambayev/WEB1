@@ -17,6 +17,9 @@ export class ProductListComponent {
   shareWa(urlKaspi: string) {
     window.location.href = `whatsapp://send?text=${encodeURIComponent(urlKaspi)}`;
   }
+  shareKa(urlKaspi: string){
+    window.location.href = `https://kaspi.kz/shop/p/=${encodeURIComponent(urlKaspi)}`;
+  }
 
   onNotify() {
     window.alert('Wou will be notidied when the product goes on sale')

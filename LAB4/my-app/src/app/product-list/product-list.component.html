@@ -14,6 +14,8 @@
         
         <button type="button" id="tgButton" (click)="shareTg(product.urlKaspi)"></button>
         <button type="button" id="waButton" (click)="shareWa(product.urlKaspi)"></button>
+        
+        <button type="button" id="KaButton" (click)="shareKa(product.urlKaspi)"></button>
 
         <app-product-alerts [product]="product" (notify)="onNotify()"> </app-product-alerts>
     </div>
